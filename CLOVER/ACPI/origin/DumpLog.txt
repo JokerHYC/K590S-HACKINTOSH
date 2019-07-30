@@ -1,113 +1,113 @@
-66:294  1:643  Found BIOS RSDP at F0000
-66:294  0:000  Printing ACPI tables from RSDP F0000 ...
-66:294  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-66:294  0:000    (Xsdt: CA1B8080, Rsdt: CA1B8028)
-66:294  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124
-66:294  0:000    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80
-66:294  0:000    Tables in Xsdt: 11
-66:294  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268
-66:294  0:000        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
-66:294  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
-66:295  0:000        CA1D2080: 'FACS', Ver: 2, Len: 64
-66:295  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
-66:295  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
-66:295  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
-66:295  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
-66:295  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
-66:295  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-66:295  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
-66:295  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
-66:295  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
-66:295  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
-66:295  0:000    Tables in Rsdt: 11
-66:295  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132
-66:295  0:000        (Dsdt: CA1B8190, Facs: CA1D2040)
-66:295  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
-66:296  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64
-66:296  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
-66:296  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
-66:296  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
-66:296  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
-66:296  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
-66:296  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-66:296  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
-66:296  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
-66:296  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
-66:296  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
-66:296  0:000  Found UEFI Acpi 2.0 RSDP at CA1B8000
-66:296  0:000  Saving ACPI tables from RSDP CA1B8000 to EFI\CLOVER\ACPI\origin ...
-66:296  0:000   CA1B8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-66:304  0:007    (Xsdt: CA1B8080, Rsdt: CA1B8028)
-66:304  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124 -> XSDT.aml
-66:308  0:004    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80 -> RSDT.aml
-66:312  0:003    Tables in Xsdt: 11
-66:312  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
-66:315  0:003        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
-66:315  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192 -> DSDT.aml
-66:319  0:003        CA1D2080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
-66:322  0:003    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146 -> APIC.aml
-66:327  0:005    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
-66:331  0:003    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
-66:334  0:003    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749 -> SSDT-0-PtidDevc.aml
-66:337  0:002    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
-66:340  0:003    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-1-SataTabl.aml
-66:344  0:003    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342 -> SSDT-2-Cpu0Ist.aml
-66:348  0:004    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
-66:351  0:002        * C7822018: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 16 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x3_0-CpuPm.aml
-66:354  0:003        * CA00FA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_1-ApIst.aml
-66:357  0:002        * CA00E018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x3_2-Cpu0Cst.aml
-66:363  0:005        * CA010C18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_3-ApCst.aml
-66:368  0:004  
-66:368  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300 -> SSDT-4-SgTabl.aml
-66:371  0:003    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012 -> SSDT-5-OptTabl.aml
-66:374  0:002    Tables in Rsdt: 11
-66:374  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
-66:377  0:003        (Dsdt: CA1B8190, Facs: CA1D2040)
-66:377  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
-66:378  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
-66:381  0:003    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
-66:381  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
-66:381  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
-66:381  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
-66:381  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
-66:381  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-66:381  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
-66:381  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
-66:381  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
-66:381  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
-66:381  0:000  Found UEFI Acpi 1.0 RSDP at CA1B8000
-66:381  0:000  Printing ACPI tables from RSDP CA1B8000 ...
-66:381  0:000   CA1B8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-66:381  0:000    (Xsdt: CA1B8080, Rsdt: CA1B8028)
-66:381  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124
-66:381  0:000    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80
-66:381  0:000    Tables in Xsdt: 11
-66:381  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268
-66:381  0:000        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
-66:381  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
-66:382  0:000        CA1D2080: 'FACS', Ver: 2, Len: 64
-66:382  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
-66:382  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
-66:382  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
-66:382  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
-66:382  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
-66:382  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-66:382  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
-66:382  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
-66:382  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
-66:382  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
-66:382  0:000    Tables in Rsdt: 11
-66:382  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132
-66:382  0:000        (Dsdt: CA1B8190, Facs: CA1D2040)
-66:382  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
-66:383  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64
-66:383  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
-66:383  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
-66:383  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
-66:383  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
-66:383  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
-66:383  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
-66:383  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
-66:383  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
-66:383  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
-66:383  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
+7:792  0:832  Found BIOS RSDP at F0000
+7:792  0:000  Printing ACPI tables from RSDP F0000 ...
+7:792  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:792  0:000    (Xsdt: CA1B8080, Rsdt: CA1B8028)
+7:792  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124
+7:792  0:000    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80
+7:792  0:000    Tables in Xsdt: 11
+7:792  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268
+7:792  0:000        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
+7:792  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
+7:793  0:000        CA1D2080: 'FACS', Ver: 2, Len: 64
+7:793  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
+7:793  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:793  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:793  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
+7:793  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:793  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:793  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
+7:793  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+7:793  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
+7:793  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
+7:793  0:000    Tables in Rsdt: 11
+7:793  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132
+7:793  0:000        (Dsdt: CA1B8190, Facs: CA1D2040)
+7:793  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
+7:794  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64
+7:794  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
+7:794  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:794  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:794  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
+7:794  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:794  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:794  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
+7:794  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+7:794  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
+7:794  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
+7:794  0:000  Found UEFI Acpi 2.0 RSDP at CA1B8000
+7:794  0:000  Saving ACPI tables from RSDP CA1B8000 to EFI\CLOVER\ACPI\origin ...
+7:794  0:000   CA1B8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:804  0:009    (Xsdt: CA1B8080, Rsdt: CA1B8028)
+7:804  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124 -> XSDT.aml
+7:808  0:004    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80 -> RSDT.aml
+7:813  0:004    Tables in Xsdt: 11
+7:813  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+7:818  0:004        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
+7:818  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192 -> DSDT.aml
+7:823  0:005        CA1D2080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:828  0:004    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146 -> APIC.aml
+7:833  0:005    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+7:838  0:005    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+7:843  0:004    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749 -> SSDT-0-PtidDevc.aml
+7:848  0:004    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+7:852  0:004    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-1-SataTabl.aml
+7:857  0:004    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342 -> SSDT-2-Cpu0Ist.aml
+7:865  0:008    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+7:869  0:004        * C7822018: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 16 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x3_0-CpuPm.aml
+7:874  0:004        * CA00FA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_1-ApIst.aml
+7:879  0:004        * CA00E018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x3_2-Cpu0Cst.aml
+7:884  0:005        * CA010C18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_3-ApCst.aml
+7:890  0:005  
+7:890  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300 -> SSDT-4-SgTabl.aml
+7:894  0:004    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012 -> SSDT-5-OptTabl.aml
+7:899  0:004    Tables in Rsdt: 11
+7:899  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+7:904  0:004        (Dsdt: CA1B8190, Facs: CA1D2040)
+7:904  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
+7:905  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+7:910  0:004    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
+7:910  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:910  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:910  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
+7:910  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:910  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:910  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
+7:910  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+7:910  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
+7:910  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
+7:910  0:000  Found UEFI Acpi 1.0 RSDP at CA1B8000
+7:910  0:000  Printing ACPI tables from RSDP CA1B8000 ...
+7:910  0:000   CA1B8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:910  0:000    (Xsdt: CA1B8080, Rsdt: CA1B8028)
+7:910  0:000    CA1B8080: 'XSDT', 'A M I', Rev: 1, Len: 124
+7:910  0:000    CA1B8028: 'RSDT', 'A M I', Rev: 1, Len: 80
+7:910  0:000    Tables in Xsdt: 11
+7:910  0:000    0. CA1C12D8: 'FACP', 'A M I', Rev: 5, Len: 268
+7:910  0:000        (Dsdt: CA1B8190, Facs: CA1D2080, XDsdt: CA1B8190, XFacs: 0)
+7:910  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
+7:911  0:000        CA1D2080: 'FACS', Ver: 2, Len: 64
+7:911  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
+7:911  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:911  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:911  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
+7:911  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:911  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:911  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
+7:911  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+7:911  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
+7:911  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012
+7:911  0:000    Tables in Rsdt: 11
+7:911  0:000    0. CA1B8108: 'FACP', 'A M I', Rev: 2, Len: 132
+7:911  0:000        (Dsdt: CA1B8190, Facs: CA1D2040)
+7:911  0:000        CA1B8190: 'DSDT', 'A M I', Rev: 2, Len: 37192
+7:912  0:000        CA1D2040: 'FACS', Ver: 0, Len: 64
+7:912  0:000    1. CA1C13E8: 'APIC', 'A M I', Rev: 3, Len: 146
+7:912  0:000    2. CA1C1480: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:912  0:000    3. CA1C14C8: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:912  0:000    4. CA1C1508: 'SSDT', 'PtidDevc', Rev: 1, Len: 3749
+7:912  0:000    5. CA1C23B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:912  0:000    6. CA1C23E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:912  0:000    7. CA1C2700: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2342
+7:912  0:000    8. CA1C3028: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+7:912  0:000    9. CA1C3AC0: 'SSDT', 'SgTabl', Rev: 1, Len: 1300
+7:912  0:000    10. CA1C3FD8: 'SSDT', 'OptTabl', Rev: 1, Len: 4012

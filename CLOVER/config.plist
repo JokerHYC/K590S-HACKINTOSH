@@ -62,11 +62,11 @@
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIDE</key>
 				<false/>
 				<key>FixIPIC</key>
-				<false/>
+				<true/>
 				<key>FixIntelGfx</key>
 				<false/>
 				<key>FixLAN</key>
@@ -180,8 +180,6 @@
 		<false/>
 		<key>Fast</key>
 		<false/>
-		<key>Legacy</key>
-		<string>LegacyBiosDefault</string>
 		<key>NeverDoRecovery</key>
 		<false/>
 		<key>RtcHibernateAware</key>
@@ -264,6 +262,12 @@
 			<false/>
 			<key>#ResetHDA</key>
 			<false/>
+			<key>AFGLowPowerState</key>
+			<false/>
+			<key>Inject</key>
+			<integer>1</integer>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
